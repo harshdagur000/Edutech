@@ -1,0 +1,153 @@
+/* Global Styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Home Container */
+.home-container {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    height: 550px;
+    min-height: 550px;
+    background: linear-gradient(to right, #111111, #000000);
+    color: white;
+}
+
+.left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 6rem;
+}
+
+.right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.right img {
+    height: 90%;
+    position: relative;
+    transform: rotate(15deg);
+    top: 100px;
+}
+
+.left p {
+    margin: 2rem 0;
+}
+
+.left .btn {
+    width: fit-content;
+    padding: 15px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #e50914; /* Netflix red */
+    transition: .5s ease;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.left .btn:hover {
+    background-color: white;
+    color: #e50914; /* Netflix red */
+    border: 2px solid #e50914; /* Netflix red */
+}
+
+.left h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.hide {
+    height: 60px;
+    width: 100%;
+    background-color: #e50914; /* Netflix red */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hide a {
+    text-decoration: underline;
+}
+
+/* Explore Section */
+.explore {
+    position: relative;
+    background-color: #111111;
+    padding: 2rem;
+}
+
+.explore h1 {
+    color: white; /* Netflix red */
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Cards */
+.card {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    padding: 2.5rem;
+    color: white;
+    transition: all 0.2s;
+    margin: 20px;
+}
+
+.card p {
+    margin: 1rem 0;
+}
+
+.card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+}
+
+.card button {
+    border-radius: 5px;
+    padding: 7px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .2s ease;
+}
+
+.card button:hover {
+    border: 2px solid #e50914; /* Netflix red */
+    color: #e50914; /* Netflix red */
+}
+
+/* Individual Card Styles */
+.card1 {
+    background: radial-gradient(#FF6B6B, #FF8E53);
+}
+
+.card2 {
+    background: radial-gradient(#90F7EC, #32CCBC);
+}
+
+.card3 {
+    background: radial-gradient(#FFD166, #FFFC9E);
+}
+
+.card4 {
+    background: radial-gradient(#F67280, #C06C84);
+}
+
